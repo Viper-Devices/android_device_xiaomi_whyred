@@ -465,7 +465,6 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
 
@@ -496,8 +495,7 @@
 
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
-
     <!-- Full screen aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
     <item name="config_screenAspectRatio" format="float" type="dimen">2.1</item>
-    </resources>
+</resources>

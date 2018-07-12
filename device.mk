@@ -326,6 +326,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# Kernel updater app
+PRODUCT_PACKAGES += \
+    Codex
+
 $(call inherit-product, device/xiaomi/whyred/treble.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)

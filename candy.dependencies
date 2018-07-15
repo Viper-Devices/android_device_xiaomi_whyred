@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "CandyDevices/kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch": "c8.1"
+  },
+  {
+    "repository": 
+"CandyDevices/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "c8.1"
+  },
+  {
+    "repository": "CandyDevices/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi";
+    "branch": "c8.1"
+  }
+]

@@ -49,14 +49,15 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := whyred-perf_defconfig
-#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 #TARGET_KERNEL_CROSS_COMPILE := prebuilts/gcc/linux-86/aarch64/aarch64-linux-android-7.0-kernel/bin/aarch64-linux-android-
 #TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 7.0.2
-KBUILD_COMPILER_STRING :=  DragonTC 7.0
-export KBUILD_COMPILER_STRING
-TARGET_KERNEL_CLANG_PATH := $(ANDROID_BUILD_TOP)/prebuilts/clang/host/linux-x86/7.0-DragonTC/bin
+TARGET_KERNEL_CLANG_PATH := /home/ayanchou/sources/Clang/bin/
+#KBUILD_COMPILER_STRING :=  DragonTC 7.0
+#export KBUILD_COMPILER_STRING
+#TARGET_KERNEL_CLANG_PATH := $(ANDROID_BUILD_TOP)/prebuilts/clang/host/linux-x86/7.0-DragonTC/bin
 
 
 # Partitions

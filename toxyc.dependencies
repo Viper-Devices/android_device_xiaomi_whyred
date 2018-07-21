@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "AxelBlaz3/Codex-Kernel",
+    "target_path": "kernel/xiaomi/whyred",
+    "branch": "O"
+  },
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "oreo-mr1"
+  },
+  {
+    "repository": "proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "oreo-mr1"
+  }
+]

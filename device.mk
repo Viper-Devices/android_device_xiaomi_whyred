@@ -283,7 +283,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
-
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \

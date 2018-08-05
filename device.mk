@@ -155,7 +155,7 @@ PRODUCT_COPY_FILES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    OneplusThreeDoze
 
 # Wifi
 PRODUCT_PACKAGES += \

@@ -285,8 +285,11 @@ PRODUCT_PACKAGES += \
     rcs_service_api.xml
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap
+#PRODUCT_PACKAGES += \
+ #   Snap
+
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1
 # IPv6

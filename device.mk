@@ -343,11 +343,8 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/xiaomi/whyred/treble.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
-<<<<<<< HEAD
-=======
-
 # Kernel updater app
 #PRODUCT_PACKAGES += \
  #   Codex
 
->>>>>>> 14c6457... volte: fixed volte issues for many carriers
+

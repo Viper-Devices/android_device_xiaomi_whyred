@@ -242,10 +242,10 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 #FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+#PRODUCT_PACKAGES += \
+    #FM2 \
+    #libqcomfm_jni \
+ #   qcom.fmradio
 
 # Ramdisk
 PRODUCT_PACKAGES += \
